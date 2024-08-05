@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "Table to Excel Downloader",
+    "version": "1.0",
+    "description": "Detect tables and add a download button to export them to Excel.",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "48": "img/icon48.png",
+            "128": "img/icon128.png"
+        }
+    },
+    "icons": {
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "libs/xlsx.full.min.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
