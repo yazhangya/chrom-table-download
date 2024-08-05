@@ -169,17 +169,5 @@
         });
     }
 
-    // Use MutationObserver to detect when the DOM is fully loaded and rendered
-    const observer = new MutationObserver((mutations, obs) => {
-        detectTables();
-        obs.disconnect(); // Stop observing after tables are found
-    });
-
-    observer.observe(document, {
-        childList: true,
-        subtree: true
-    });
-
-    // Also run the detection function when the page is fully loaded
-    window.addEventListener('load', detectTables);
+    detectTables();
 })();
