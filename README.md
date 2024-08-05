@@ -11,6 +11,8 @@
 # Table Download
 A Chrome extension to download tables from websites.
 
+Add Table Copy Button 
+
 ## Usage[TODO]
 1. Install the extension from the [Chrome Web Store](https://xx).
 2. Navigate to a website with a table you want to download.
