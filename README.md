@@ -13,8 +13,12 @@ A Chrome extension to download tables from websites.
 
 Add Table Copy Button 
 
-## Usage[TODO]
-1. Install the extension from the [Chrome Web Store](https://xx).
-2. Navigate to a website with a table you want to download.
-3. Right click on the table and select "Download Table".
-4. The table will be downloaded as a CSV file.
+## Usage
+1. Download zip from [github](https://github.com/yazhangya/chrom-table-download/archive/refs/heads/master.zip)
+2. Unzip the zip file to your chrome extension folder
+3. Open chrome and go to `chrome://extensions/`
+4. Enable `Developer mode`
+5. Click `Load unpacked` and select the folder you just unzipped
+6. Open a website with tables
+
+## Screenshot
