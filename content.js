@@ -45,7 +45,7 @@
     // Function to create the download button
     function createDownloadButton(table, index) {
         const button = document.createElement('button');
-        button.textContent = `[${index}]下载`;
+        button.textContent = `[${index}]Download`;
         button.style.position = 'absolute';
         button.style.zIndex = 1000;
         button.style.padding = '5px 10px';
